@@ -18,14 +18,17 @@
       
       .navbar li {
         float: right;
+        position: relative;
 
       }
       
       .navbar li a {
-        display: block;
+        display: flex;
+        justify-content: space-between;
         color: #000;
         text-align: right;
-        padding: 10px 16px;
+        padding: 10px;
+        padding-right: 5px;
         text-decoration: none;
       }
       
@@ -37,10 +40,14 @@
     
       .navbar .logo {
         float: left;
+        display: flex;
+        justify-content: space-between;
+
+
       }
       
       .navbar .logo img {
-        height: 30px;
+        height: 25px;
       }
       .foot{
         background-color: gray;
@@ -72,6 +79,10 @@
         list-style-type: none;
         text-decoration: none;
       }
+      .hero{
+        min-width: 445px;
+      }
+
 
     </style>
   </head>
@@ -80,7 +91,7 @@
       <ul class="navbar">
         <li class="logo"><a href="https://www.bodi-electronics.mn/" target="_blank"><img src="undsen.png"></a></li>
         <li><a href="#">Заавар</a></li>
-        <li><a href="#">Холбоо барих</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
     <div class="hero">
@@ -98,4 +109,3 @@
   </footer>
   
 </html>
-
